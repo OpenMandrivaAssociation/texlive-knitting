@@ -1,3 +1,9 @@
+# revision 19595
+# category Package
+# catalog-ctan /fonts/knitting
+# catalog-date 2010-08-29 22:20:17 +0200
+# catalog-license lppl1.3
+# catalog-version 2.0
 Name:		texlive-knitting
 Version:	2.0
 Release:	1
@@ -114,6 +120,7 @@ source and in Adobe Type 1 format.
 %doc %{_texmfdistdir}/doc/fonts/knitting/knitkey.tex
 %doc %{_texmfdistdir}/doc/fonts/knitting/knitting-doc.pdf
 %doc %{_texmfdistdir}/doc/fonts/knitting/knitting-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -124,3 +131,5 @@ source and in Adobe Type 1 format.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
