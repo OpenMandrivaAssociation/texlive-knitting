@@ -121,3 +121,17 @@ source and in Adobe Type 1 format.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.0-2
++ Revision: 752989
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.0-1
++ Revision: 718778
+- texlive-knitting
+- texlive-knitting
+- texlive-knitting
+- texlive-knitting
+
