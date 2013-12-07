@@ -6,7 +6,7 @@
 # catalog-version 2.0
 Name:		texlive-knitting
 Version:	2.0
-Release:	5
+Release:	6
 Summary:	Produce knitting charts, in Plain TeX or LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/knitting
