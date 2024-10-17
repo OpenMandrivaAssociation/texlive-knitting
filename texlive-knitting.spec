@@ -3,7 +3,7 @@ Version:	50782
 Release:	2
 Summary:	Produce knitting charts, in Plain TeX or LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/knitting
+URL:		https://www.ctan.org/tex-archive/fonts/knitting
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/knitting.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/knitting.doc.r%{version}.tar.xz
